@@ -17,7 +17,7 @@ class LoaderAPI extends PluginBase implements Listener {
      }
     
     public function RegCommands(){
-        $this->getServer()->getCommandMap()->register("Hub", new HubCommand("Hub", $this));
+        $this->getServer()->getCommandMap()->register("Hub", new Hub("Hub", $this));
         
     }
    
